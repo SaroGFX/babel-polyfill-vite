@@ -35,11 +35,9 @@ function modernJSToTestBabelPolyfill() {
     #privateField: any;
     #privateFieldWithInitializer = 42;
 
-    #privateMethod() {
+    #privateMethod(): any {
       console.log("private");
     }
-
-    privateMethod();
   }
 }
 
