@@ -1,0 +1,7 @@
+{
+  "name": "babel-polyfill-vite",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
